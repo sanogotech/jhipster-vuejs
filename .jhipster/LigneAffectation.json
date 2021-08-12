@@ -1,0 +1,46 @@
+{
+  "name": "LigneAffectation",
+  "fields": [
+    {
+      "fieldName": "typeAffectation",
+      "fieldType": "String",
+      "fieldValidateRules": [
+        "required"
+      ]
+    },
+    {
+      "fieldName": "nbjourhome",
+      "fieldType": "Integer",
+      "fieldValidateRules": [
+        "required"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "projet",
+      "otherEntityRelationshipName": "ligneAffectation",
+      "relationshipName": "projet",
+      "otherEntityField": "nom"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "consultant",
+      "otherEntityRelationshipName": "ligneAffectation",
+      "relationshipName": "consultant",
+      "otherEntityField": "email"
+    }
+  ],
+  "changelogDate": "20210812163519",
+  "entityTableName": "ligne_affectation",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

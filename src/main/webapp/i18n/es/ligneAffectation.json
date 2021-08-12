@@ -1,0 +1,25 @@
+{
+  "jhipsterApp": {
+    "ligneAffectation": {
+      "home": {
+        "title": "Ligne Affectations",
+        "createLabel": "Crear nuevo Ligne Affectation",
+        "createOrEditLabel": "Crear o editar Ligne Affectation",
+        "notFound": "Ningún Ligne Affectations encontrado"
+      },
+      "created": "Un nuevo Ligne Affectation ha sido creado con el identificador {{ param }}",
+      "updated": "Un Ligne Affectation ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Ligne Affectation ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Ligne Affectation {{ id }}?"
+      },
+      "detail": {
+        "title": "Ligne Affectation"
+      },
+      "typeAffectation": "Type Affectation",
+      "nbjourhome": "Nbjourhome",
+      "projet": "Projet",
+      "consultant": "Consultant"
+    }
+  }
+}

@@ -32,6 +32,30 @@
                         <font-awesome-icon icon="th-list" />
                         <span v-text="$t('global.menu.entities.main')">Entities</span>
                     </span>
+                    <b-dropdown-item to="/prestataire">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.prestataire')">Prestataire</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/projet">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.projet')">Projet</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/consultant">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.consultant')">Consultant</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/domaine-metier">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.domaineMetier')">DomaineMetier</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/entreprise">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.entreprise')">Entreprise</span>
+                    </b-dropdown-item>
+                    <b-dropdown-item to="/ligne-affectation">
+                        <font-awesome-icon icon="asterisk" />
+                        <span v-text="$t('global.menu.entities.ligneAffectation')">LigneAffectation</span>
+                    </b-dropdown-item>
                     <!-- jhipster-needle-add-entity-to-menu - JHipster will add entities to the menu here -->
                 </b-nav-item-dropdown>
                 <b-nav-item-dropdown

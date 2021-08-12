@@ -1,0 +1,23 @@
+{
+  "jhipsterApp": {
+    "domaineMetier": {
+      "home": {
+        "title": "Domaine Metiers",
+        "createLabel": "Crear nuevo Domaine Metier",
+        "createOrEditLabel": "Crear o editar Domaine Metier",
+        "notFound": "Ningún Domaine Metiers encontrado"
+      },
+      "created": "Un nuevo Domaine Metier ha sido creado con el identificador {{ param }}",
+      "updated": "Un Domaine Metier ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Domaine Metier ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Domaine Metier {{ id }}?"
+      },
+      "detail": {
+        "title": "Domaine Metier"
+      },
+      "nom": "Nom",
+      "entreprise": "Entreprise"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "DomaineMetier",
+  "fields": [
+    {
+      "fieldName": "nom",
+      "fieldType": "String",
+      "fieldValidateRules": [
+        "required"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "entreprise",
+      "otherEntityRelationshipName": "domaineMetier",
+      "relationshipName": "entreprise",
+      "otherEntityField": "nom"
+    }
+  ],
+  "changelogDate": "20210812122253",
+  "entityTableName": "domaine_metier",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

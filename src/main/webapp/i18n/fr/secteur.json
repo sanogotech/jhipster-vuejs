@@ -1,0 +1,11 @@
+{
+  "jhipsterApp": {
+    "Secteur": {
+      "null": "",
+      "ELECTRICITE": "ELECTRICITE",
+      "EAU": "EAU",
+      "TELECOM": "TELECOM",
+      "ENERGIE": "ENERGIE"
+    }
+  }
+}

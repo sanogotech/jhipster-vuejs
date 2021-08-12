@@ -1,0 +1,27 @@
+{
+  "jhipsterApp": {
+    "consultant": {
+      "home": {
+        "title": "Consultants",
+        "createLabel": "Crear nuevo Consultant",
+        "createOrEditLabel": "Crear o editar Consultant",
+        "notFound": "Ningún Consultants encontrado"
+      },
+      "created": "Un nuevo Consultant ha sido creado con el identificador {{ param }}",
+      "updated": "Un Consultant ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Consultant ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Consultant {{ id }}?"
+      },
+      "detail": {
+        "title": "Consultant"
+      },
+      "nom": "Nom",
+      "matricule": "Matricule",
+      "email": "Email",
+      "prenom": "Prenom",
+      "disponibiliteMax": "Disponibilite Max",
+      "prestataire": "Prestataire"
+    }
+  }
+}

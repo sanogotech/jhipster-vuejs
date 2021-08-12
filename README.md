@@ -154,7 +154,49 @@ If you need to re-run the Sonar phase, please be sure to specify at least the `i
 ```
 
 or
-For more information, refer to the [Code quality page][].
+For more information, refer to the [Code quality page][]
+
+## Command
+
+Generate the entity files by running:
+
+```
+# JHipster v7+ JDL Application
+jhipster --blueprints react-native jdl ./path-to-your-app-config.jdl
+jhipster --blueprints vuejs jdl ./path-to-your-app-config.jdl
+ jhipster import-jdl entities.jdl
+
+```
+
+## Testing
+
+Running Protractor e2e tests /IHM Test
+
+npm run e2e
+
+## Fake Data : Fakerjs
+
+Faker.js/
+
+https://www.section.io/engineering-education/how-to-generate-fake-data-in-node-using-faker.js/
+
+## SSL certificat autogenerate
+
+## Performance prod vs dev : Lighthouse
+
+## browserSync
+
+## Liquide base mode dev
+
+mvnw clean
+
+## Liquide base mode prod
+
+```
+jhipster import-jdl jhipster-jdl.jh --new-changelogs
+```
+
+Votre projet est déjà en production. Dans ce cas, vous allez devoir créer un nouveau changelog sous forme de fichier XML et indiquer dans celui-ci les modifications à appliquer en respectant la syntaxe de Liquibase (documentation : https://docs.liquibase.com/change-types/home.html). N’oubliez pas d’indiquer le nouveau changelog dans le fichier master.xml.
 
 ## Using Docker to simplify development (optional)
 

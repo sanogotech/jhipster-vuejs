@@ -1,0 +1,63 @@
+entity Prestataire {
+  nom String required minlength(3),
+  commune String required minlength(2)
+}
+
+entity Projet {
+  nom String required,
+  datedebut Instant required,
+  nbjourhome Integer required
+}
+
+entity LigneAffectation {
+  typeAffectation String required,
+  nbjourhome Integer required
+}
+
+entity Consultant {
+  nom String required minlength(2)
+  matricule String required
+  email String required
+  prenom String required minlength(2)
+  disponibiliteMax Integer required
+}
+
+entity DomaineMetier {
+  nom String required,
+
+}
+
+entity Entreprise {
+  nom String required,
+  secteur Secteur required,
+}
+
+enum Secteur {
+    ELECTRICITE, EAU, TELECOM, ENERGIE
+}
+
+relationship ManyToOne {
+  LigneAffectation{projet(nom)} to Projet,
+
+}
+
+relationship ManyToOne {
+  Consultant{prestataire(nom)} to Prestataire,
+
+}
+
+relationship ManyToOne {
+  LigneAffectation{consultant(email)} to Consultant
+}
+
+
+relationship ManyToOne {
+  Projet{domaineMetier(nom)} to DomaineMetier,
+}
+relationship ManyToOne {
+  DomaineMetier{entreprise(nom)} to Entreprise,
+
+}
+paginate Projet, Consultant with infinite-scroll
+
+service LigneAffectation with serviceClass

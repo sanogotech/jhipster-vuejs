@@ -29,6 +29,12 @@ import ConfigurationService from '@/admin/configuration/configuration.service';
 
 /* tslint:disable */
 
+import PrestataireService from '@/entities/prestataire/prestataire.service';
+import ProjetService from '@/entities/projet/projet.service';
+import ConsultantService from '@/entities/consultant/consultant.service';
+import DomaineMetierService from '@/entities/domaine-metier/domaine-metier.service';
+import EntrepriseService from '@/entities/entreprise/entreprise.service';
+import LigneAffectationService from '@/entities/ligne-affectation/ligne-affectation.service';
 // jhipster-needle-add-entity-service-to-main-import - JHipster will import entities services here
 
 /* tslint:enable */
@@ -91,6 +97,12 @@ new Vue({
     metricsService: () => new MetricsService(),
     alertService: () => alertService,
     translationService: () => translationService,
+    prestataireService: () => new PrestataireService(),
+    projetService: () => new ProjetService(),
+    consultantService: () => new ConsultantService(),
+    domaineMetierService: () => new DomaineMetierService(),
+    entrepriseService: () => new EntrepriseService(),
+    ligneAffectationService: () => new LigneAffectationService(),
     // jhipster-needle-add-entity-service-to-main - JHipster will import entities services here
     accountService: () => accountService,
   },

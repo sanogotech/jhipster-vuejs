@@ -1,0 +1,23 @@
+{
+  "jhipsterApp": {
+    "prestataire": {
+      "home": {
+        "title": "Prestataires",
+        "createLabel": "Crear nuevo Prestataire",
+        "createOrEditLabel": "Crear o editar Prestataire",
+        "notFound": "Ningún Prestataires encontrado"
+      },
+      "created": "Un nuevo Prestataire ha sido creado con el identificador {{ param }}",
+      "updated": "Un Prestataire ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Prestataire ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Prestataire {{ id }}?"
+      },
+      "detail": {
+        "title": "Prestataire"
+      },
+      "nom": "Nom",
+      "commune": "Commune"
+    }
+  }
+}

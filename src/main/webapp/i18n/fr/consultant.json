@@ -1,0 +1,27 @@
+{
+  "jhipsterApp": {
+    "consultant": {
+      "home": {
+        "title": "Consultants",
+        "createLabel": "Créer un nouveau Consultant",
+        "createOrEditLabel": "Créer ou éditer un Consultant",
+        "notFound": "Aucun Consultant trouvé"
+      },
+      "created": "Un nouveau Consultant a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Consultant avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Consultant avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Consultant {{ id }} ?"
+      },
+      "detail": {
+        "title": "Consultant"
+      },
+      "nom": "Nom",
+      "matricule": "Matricule",
+      "email": "Email",
+      "prenom": "Prenom",
+      "disponibiliteMax": "Disponibilite Max",
+      "prestataire": "Prestataire"
+    }
+  }
+}
